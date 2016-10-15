@@ -14,7 +14,7 @@ public class Main {
         for(int i = 0 ; i < n; i ++) {
             for(int j = 0; j < 9; j ++) {
                 y += scan.nextInt();
-                k += scan.nextInt();r
+                k += scan.nextInt();
             }
             if(y>k) print("Yonsei");
             else if(y==k) print("Draw");
