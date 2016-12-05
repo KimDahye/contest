@@ -71,7 +71,7 @@ public class Main {
             int groupCountForSameRemainder = partialSumRemainder[i];
             sum = sum + nChoose2(groupCountForSameRemainder);
         }
-        return sum;
+        return sum % 20091101;
     }
 
     public int nChoose2(int n) {
